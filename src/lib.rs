@@ -5,3 +5,7 @@ mod tests {
         assert_eq!(2 + 2, 4);
     }
 }
+
+fn test_lib() {
+    println!("{}", 123);
+}
